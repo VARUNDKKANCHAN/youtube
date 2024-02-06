@@ -1,0 +1,112 @@
+.thumbnail {
+  width: 100%;
+  margin: 0px;
+}
+
+.vedio {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.vedio-title {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  line-height: 20px;
+}
+
+.channel-info,
+.vedio-stats {
+  font-size: 9pt;
+  color: rgba(96, 96, 96, 1);
+}
+
+.channel-info {
+  margin-bottom: 4px;
+}
+
+.vedio-info {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel-profile1 {
+  display: inline-block;
+}
+
+.profile-image {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.vedio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  transition: width 0.5s ;
+
+}
+
+
+@media(max-width:750px) {
+
+  .vedio-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media(min-width:1000px) {
+
+  .vedio-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+
+@media(min-width:751px) and (max-width:999px) {
+  .vedio-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.display-pic {
+  position: relative;
+}
+
+.content-time {
+  position: absolute;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 12px;
+  bottom: 10px;
+  right: 5px;
+  font-weight: 500;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
